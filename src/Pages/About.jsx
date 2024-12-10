@@ -1,6 +1,8 @@
 import Navbar from "../Components/Navbar";
 import MainImage from "../Images/CardComboImage.jpg";
 import Map from "../Components/Map";
+import Gallery from "../Components/Gallery";
+import Footer from "../Components/Footer";
 
 const About = () => {
   return (
@@ -32,9 +34,11 @@ const About = () => {
       </div>
       <div className='about_gallery_section'>
         <div className='about_gallery_section_container'>
-          <h1>Explore Our Styles</h1>
+          <h1>Explore Our Style</h1>
+          <Gallery />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
