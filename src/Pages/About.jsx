@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <div className='about_gallery_section'>
         <div className='about_gallery_section_container'>
-          <h1>Explore Our Style</h1>
+          <h1>Explore Our Styles</h1>
         </div>
       </div>
     </>
