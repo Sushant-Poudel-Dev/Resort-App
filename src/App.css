@@ -391,3 +391,61 @@ body {
 }
 
 /* ABOUT PAGE */
+
+.about_hero_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding: 4rem;
+}
+
+.about_hero_section_text {
+  width: 50%;
+}
+
+.about_hero_section_text h1 {
+  font-size: var(--main-title-headings);
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.about_hero_section_text p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.about_hero_section_image img {
+  height: 20rem;
+}
+
+.Map {
+  height: 40rem;
+  width: 80%;
+}
+
+.map_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.map_container h1 {
+  font-size: var(--main-title-headings);
+  color: var(--main-text-color);
+}
+
+.about_gallery_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding: 4rem;
+}
+
+.about_gallery_section_container h1 {
+  font-size: var(--main-title-headings);
+  color: var(--main-text-color);
+}

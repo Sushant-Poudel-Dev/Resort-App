@@ -39,34 +39,46 @@ const mappedService = services.map((service) => ({
 const Services = () => {
   return (
     <>
-      <section className="ServicesSection">
-        <div className="service">
-          <img className="servicesImage" src={mappedService[0].image} alt="" />
-          <div className="serviceDescription">
-            <h2 className="servicesh2">{mappedService[0].title}</h2>
-            <p className="servicesPara">{mappedService[0].description}</p>
-            <button className="servicesButton">
+      <section className='ServicesSection'>
+        <div className='service'>
+          <img
+            className='servicesImage'
+            src={mappedService[0].image}
+            alt=''
+          />
+          <div className='serviceDescription'>
+            <h2 className='servicesh2'>{mappedService[0].title}</h2>
+            <p className='servicesPara'>{mappedService[0].description}</p>
+            <button className='servicesButton'>
               {mappedService[0].button}
             </button>
           </div>
         </div>
-        <div className="service">
-          <div className="serviceDescription">
-            <h2 className="servicesh2">{mappedService[1].title}</h2>
-            <p className="servicesPara">{mappedService[1].description}</p>
-            <button className="servicesButton">
+        <div className='service'>
+          <div className='serviceDescription'>
+            <h2 className='servicesh2'>{mappedService[1].title}</h2>
+            <p className='servicesPara'>{mappedService[1].description}</p>
+            <button className='servicesButton'>
               {mappedService[1].button}
             </button>
           </div>
-          <img className="servicesImage" src={mappedService[1].image} alt="" />
+          <img
+            className='servicesImage'
+            src={mappedService[1].image}
+            alt=''
+          />
         </div>
 
-        <div className="service">
-          <img className="servicesImage" src={mappedService[2].image} alt="" />
-          <div className="serviceDescription">
-            <h2 className="servicesh2">{mappedService[2].title}</h2>
-            <p className="servicesPara">{mappedService[2].description}</p>
-            <button className="servicesButton">
+        <div className='service'>
+          <img
+            className='servicesImage'
+            src={mappedService[2].image}
+            alt=''
+          />
+          <div className='serviceDescription'>
+            <h2 className='servicesh2'>{mappedService[2].title}</h2>
+            <p className='servicesPara'>{mappedService[2].description}</p>
+            <button className='servicesButton'>
               {mappedService[2].button}
             </button>
           </div>
